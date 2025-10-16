@@ -1,21 +1,27 @@
-# Gamma Toggle for Windows
+# Gamma Toggle for Windows | Windows için Gamma Ayarlayıcı
+
+[English](#english) | [Türkçe](#türkçe)
+
+---
+
+## English
 
 Quick gamma adjustment via hotkeys. No more interrupting your games or movies to adjust brightness in Windows settings.
 
-## Why?
+### Why?
 
 Opening Windows Color Calibration every time you need to adjust gamma is annoying when you're gaming or watching movies. This script lets you do it instantly with a keypress.
 
-## Requirements
+### Requirements
 
 - [AutoHotkey v2](https://www.autohotkey.com/v2/)
 
-## Usage
+### Usage
 
 - **Numpad \*** - Increase gamma (brighter)
 - **Numpad -** - Default gamma
 
-## Setup
+### Setup
 
 1. Install [AutoHotkey v2](https://www.autohotkey.com/v2/)
 2. Download `gamma_toggle.ahk`
@@ -26,7 +32,7 @@ Opening Windows Color Calibration every time you need to adjust gamma is annoyin
 2. Type `shell:startup` and press Enter
 3. Copy `gamma_toggle.ahk` into that folder
 
-## Configuration
+### Configuration
 
 Edit these values at the top of the script:
 
@@ -43,3 +49,51 @@ NumpadSub::   ; Change this to your preferred "OFF" key
 ```
 
 See [AHK key list](https://www.autohotkey.com/docs/v2/KeyList.htm) for all available keys.
+
+---
+
+## Türkçe
+
+Kısayol tuşlarıyla hızlı gamma ayarı. Artık oyun oynarken veya film izlerken parlaklık ayarlamak için Windows ayarlarını açmanıza gerek yok.
+
+### Neden?
+
+Oyun oynarken veya film izlerken her seferinde Windows Renk Kalibrasyonu'nu açmak can sıkıcı. Bu script ile tek tuşla anında ayarlayabilirsiniz.
+
+### Gereksinimler
+
+- [AutoHotkey v2](https://www.autohotkey.com/v2/)
+
+### Kullanım
+
+- **Numpad \*** - Gamma'yı artır (daha parlak)
+- **Numpad -** - Varsayılan gamma
+
+### Kurulum
+
+1. [AutoHotkey v2](https://www.autohotkey.com/v2/) yükleyin
+2. `gamma_toggle.ahk` dosyasını indirin
+3. Çalıştırmak için çift tıklayın
+
+**Bilgisayar açılışında otomatik başlatmak için:**
+1. `Win + R` tuşlarına basın
+2. `shell:startup` yazıp Enter'a basın
+3. `gamma_toggle.ahk` dosyasını bu klasöre kopyalayın
+
+### Yapılandırma
+
+Script'in başındaki bu değerleri düzenleyin:
+
+```ahk
+DEFAULT_GAMMA := 1.0    ; Normal
+INCREASED_GAMMA := 1.5  ; Daha parlak (1.5-3.0 arası deneyin)
+```
+
+**Kısayol tuşlarını değiştirmek için**, bu satırları bulup istediğiniz tuşlarla değiştirin:
+
+```ahk
+NumpadMult::  ; "AÇIK" tuşunuzu buraya yazın
+NumpadSub::   ; "KAPALI" tuşunuzu buraya yazın
+```
+
+Tüm kullanılabilir tuşlar için [AHK tuş listesi](https://www.autohotkey.com/docs/v2/KeyList.htm)ne bakın.
