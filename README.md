@@ -25,7 +25,7 @@ Oyun oynarken veya film izlerken her seferinde Windows Renk Kalibrasyonu'nu açm
 ### Kurulum
 
 1. [AutoHotkey v2](https://www.autohotkey.com/v2/) yükleyin
-2. `gamma_toggle.ahk` dosyasını indirin
+2. [gamma_toggle.ahk dosyasını indirin](https://github.com/ardaaboz/gamma-toggle/releases/download/1.0/gamma_toggle.ahk)
 3. Çalıştırmak için çift tıklayın
 
 **Bilgisayar açılışında otomatik başlatmak için:**
@@ -71,7 +71,7 @@ Opening Windows Color Calibration every time you need to adjust gamma is annoyin
 ## Setup
 
 1. Install [AutoHotkey v2](https://www.autohotkey.com/v2/)
-2. Download `gamma_toggle.ahk`
+2. [Download gamma_toggle.ahk](https://github.com/ardaaboz/gamma-toggle/releases/download/1.0/gamma_toggle.ahk)
 3. Double-click to run
 
 **To start automatically on boot:**
